@@ -1,7 +1,10 @@
 age=12
+
 name='Matt'
 
-today is cold= True
-def hello(the_string)
-  print("Hello" +the_string)
-  
+todayIsCold= True
+def hello(name="mary", age=0):
+  return"Hello {} you are {} years old".format(name,age)
+
+sentence=hello()
+print(sentence)
